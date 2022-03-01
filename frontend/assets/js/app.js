@@ -113,7 +113,7 @@ const fillDataContact = (data) => {
     html += `</td></tr>`;
 
     tbodyContact.innerHTML += html;
-  } else if (data.contacts.length > 1) {
+  } else if (data.contacts[0]) {
     data.contacts.forEach((api) => {
       let html = "";
       html += `
