@@ -1,0 +1,89 @@
+.initContacts {
+  display: none;
+}
+
+.tableNone {
+  display: none;
+}
+.registrarMe {
+  display: none;
+}
+
+.registrarMeShow {
+  display: block;
+}
+
+.registrarData {
+  display: none;
+}
+
+.registrarDataShow {
+  display: block;
+}
+
+.modal-header {
+  background-color: #daac31;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.modal-footer {
+  background-color: #daac31;
+}
+
+.modal-body {
+  background: linear-gradient(30deg, #52afec, #77da8d);
+}
+
+.form-control {
+  background-color: #e3f06c;
+}
+
+table {
+  padding: 3% 20%;
+}
+
+body {
+  background: linear-gradient(100deg, #65c0fc, gold);
+}
+
+.tableShow {
+  display: block;
+}
+
+.initDirectoryNone {
+  display: none;
+}
+
+.contactsShow {
+  display: block;
+}
+
+.directoryAll {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.container .card {
+  padding: 2% 7%;
+  display: flex;
+  width: 700px;
+  background-color: transparent;
+}
+
+.initContacts .card button {
+  padding: 35% 35%;
+}
+
+.initDirectory {
+  padding: 3% 0% 0% 37%;
+}
+
+.initDirectory button {
+  padding: 4% 5%;
+  background: linear-gradient(20deg, #0ba0e6, #71e98b);
+}
